@@ -46,4 +46,3 @@ npm install babel-polyfill --save
 #### 手机端解决点击 300ms 延迟
 
 - [手机解决300ms延迟,引入该地址https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js](https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js)
-- [也可以用本目录中phone-js文件夹下的fastclick.js](https://github.com/webxiaoma/phone-demo/blob/master/phone-js/fastclick.js)
