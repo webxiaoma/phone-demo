@@ -20,7 +20,7 @@
 
 #### 借鉴淘宝的Flexible 高清适配，做的手机端适配方案
 
-[代码地址为phone-js文件夹下的flexible.js]()
+[代码地址为phone-js文件夹下的flexible.js](https://github.com/webxiaoma/phone-demo/blob/master/phone-js/flexible.js)
 
 
 
