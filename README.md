@@ -1,8 +1,6 @@
 
 # 移动练习
 
---- 
-
 
 本仓库是关于移动端的练习，当然你可以结合相关博客来阅读。
 
@@ -10,6 +8,7 @@
 
 ![webxiaoma](http://www.webxiaoma.com/img/manong.jpg)
 
+--- 
 
 ## 移动端的一些文章
 
