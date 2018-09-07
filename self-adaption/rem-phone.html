@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/rem-phone.css">
+    <script>
+        function phoneRem(){
+            var width = screen.width;
+            var html = document.documentElement;
+            html.style.fontSize = width/10 + 'px';
+
+        }
+        phoneRem()
+        window.onresize = function(){
+            phoneRem()
+        }
+    </script>
+</head>
+<body style="font-size:14px;">
+    <h1>图片大小随屏幕大小变化</h1>
+    <div class="test-wrap">
+        <div class="children">
+            <a href="http://www.webxiaoma.com">
+                <img src="http://www.webxiaoma.com/img/manong.jpg" alt="">
+            </a>
+        </div>
+        <div class="children">
+            <a href="http://www.webxiaoma.com">
+                <img src="http://www.webxiaoma.com/img/manong.jpg" alt="">
+            </a>
+        </div>
+        <div class="children">
+            <a href="http://www.webxiaoma.com">
+                <img src="http://www.webxiaoma.com/img/manong.jpg" alt="">
+            </a>
+        </div>
+        <div class="children">
+            <a href="http://www.webxiaoma.com">
+                <img src="http://www.webxiaoma.com/img/manong.jpg" alt="">
+            </a>
+        </div>
+        <div class="children">
+            <a href="http://www.webxiaoma.com">
+                <img src="http://www.webxiaoma.com/img/manong.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

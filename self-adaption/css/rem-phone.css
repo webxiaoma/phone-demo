@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  margin: 1rem 0;
+}
+.test-wrap {
+  width: 100vw;
+  display: flex;
+}
+.test-wrap .children {
+  width: 20vw;
+}
+.test-wrap .children a {
+  display: block;
+}
+.test-wrap .children a img {
+  width: 20vw;
+  height: auto;
+}

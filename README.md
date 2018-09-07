@@ -1,48 +1,30 @@
-# 移动端的一些知识点
+
+# 移动练习
+
+--- 
 
 
-#### 一、一些概念性东西
+本仓库是关于移动端的练习，当然你可以结合相关博客来阅读。
 
-1. [一些手机概念性东西](https://segmentfault.com/a/1190000008767416#articleHeader8)
+[个人网站](http://www.webxiaoma.com/phone/)
 
-2. [viewport的概念](https://www.cnblogs.com/2050/p/3877280.html)
-
-3. [viewports的剖析](http://www.w3cplus.com/css/viewports.html)
-
-4. [使用Flexible实现手淘H5页面的终端适配](https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html)
-
-5. [再谈Retina下1px的解决方案](https://www.w3cplus.com/css/fix-1px-for-retina.html)
-
-6. [如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
+![webxiaoma](http://www.webxiaoma.com/img/manong.jpg)
 
 
+## 移动端的一些文章
 
 
-#### 借鉴淘宝的Flexible 高清适配，做的手机端适配方案
+**概念性文章**
 
-[代码地址为phone-js文件夹下的flexible.js](https://github.com/webxiaoma/phone-demo/blob/master/phone-js/flexible.js)
+- [viewports剖析](http://www.w3cplus.com/css/viewports.html)(翻译Peter-Paul Koch的两篇文章)
 
+- [A tale of two viewports — part one](https://www.quirksmode.org/mobile/viewports2.html)(Peter-Paul Koch 文章)
+- [A tale of two viewports — part two](https://www.quirksmode.org/mobile/viewports2.html)(Peter-Paul Koch 文章)
 
+**关于布局文章**
 
-#### 手机端支持promise
+- [使用Flexible实现手淘H5页面的终端适配](https://github.com/amfe/article/issues/17)（淘宝的高清方案）
 
-目前有些手机是不支持`promise`的，我们需要引入 `polyfill`
+- [再聊移动端页面的适配——使用 VW 布局](https://www.w3cplus.com/css/vw-for-layout.html)（推荐看看，目前移动端的适配方案）
 
-- vue项目中让移动端支持promise
-
-```javascript
-
-npm install babel-polyfill --save   
-
-
-在main.js引入import 'babel-polyfill'  
-
-```
-
-- 引入以下地址
-[https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js](https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js)
-
-
-#### 手机端解决点击 300ms 延迟
-
-- [手机解决300ms延迟,引入该地址https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js](https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js)
+- [如何在Vue项目中使用vw实现移动端适配]()
