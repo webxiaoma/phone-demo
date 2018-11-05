@@ -16,7 +16,7 @@ var version = 'v1.0.0';
                 './index.html',
                 './main.css',
                 './main.js',
-                './img',
+                './img/mxx.jpg',
               ]);
           })
       );
