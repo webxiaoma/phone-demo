@@ -7,13 +7,22 @@ addEventListener('load',function(){
             .then(function (reg) {
                 // 注册成功
                 console.log("ServiceWorker 注册成功");
-                registration  = reg
+
+                console.log(reg)
+                // 询问用户是否接收通知消息
+                Notification.requestPermission(function(result) {
+                    //status默认值'default'等同于拒绝 'denied' 意味着用户不想要通知 'granted' 意味着用户同意启用通知   
+                    if(result === 'granted'){
+                        registration  = reg
+                    }
+                });
             })
             .catch(function (err) {
                 // 注册失败
                 console.log('ServiceWorker 注册失败: ', err);
             });
     }
+
 })
 
 
@@ -47,3 +56,9 @@ messageBtn.onclick = function(){
     }
 
 }
+
+// let notice = new Notification("你好",{
+//     "body": "内容主体",
+// })
+// console.log(Notification.requestPermission)
+

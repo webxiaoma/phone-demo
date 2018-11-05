@@ -90,7 +90,41 @@ self.addEventListener('activate', function (event) {
 
 // 监听消息通知
 
-self.addEventListener('notificationclick', e => {
-    let clickedNotification = e.notification;
-    console.log(e)
+self.addEventListener('notificationclick', event => {
+
+    // 获取点击对象
+    let clickedNotification = event.notification;
+
+    clickedNotification.close(); // 点击后关闭消息通知
+    console.log(event)
+
+    // 执行某些异步操作，等待它完成
+    // let promiseChain = doSomething();
+    // e.waitUntil(promiseChain);
+
+    // 打开新窗口
+    // let examplePage = 'https://webxiaoma.com';
+    // let openPath = clients.openWindow(examplePage);
+    // event.waitUntil(openPath);
+
+
+    // 激活新窗口
+    let promiseChain = clients.matchAll({
+        type: 'window',
+        includeUncontrolled: true
+    }).then(windowClients => {
+        let matchingClient = null;
+    console.log(windowClients)
+        // for (let i = 0, max = windowClients.length; i < max; i++) {
+        //     let windowClient = windowClients[i];
+        //     if (windowClient.url === urlToOpen) {
+        //         matchingClient = windowClient;
+        //         break;
+        //     }
+        // }
+    
+        // return matchingClient
+        //     ? matchingClient.focus()
+        //     : clients.openWindow(urlToOpen);
+    });
 });
