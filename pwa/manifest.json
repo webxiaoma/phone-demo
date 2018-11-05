@@ -1,0 +1,32 @@
+{
+    "short_name": "马新想",
+    "name": "马新想的个人网站",
+    "icons": [
+        {
+            "src": "./img/mxx48.jpg",
+            "type": "image/jpg",
+            "sizes": "48x48"
+        },{
+            "src": "./img/mxx72.jpg",
+            "type": "image/jpg",
+            "sizes": "72x72"
+        },{
+            "src": "./img/mxx96.jpg",
+            "type": "image/jpg",
+            "sizes": "96x96"
+        },{
+            "src": "./img/mxx144.jpg",
+            "type": "image/jpg",
+            "sizes": "144x144"
+        },{
+            "src": "./img/mxx188.jpg",
+            "type": "image/jpg",
+            "sizes": "188x188"
+        }
+    ],
+    "scope":"/pwa",
+    "start_url": "./index.html",
+    "theme_color": "#8888ff",
+    "background_color": "#409EFF",
+    "display": "standalone"
+}

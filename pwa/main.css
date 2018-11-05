@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 200px;
+  margin: 0 auto;
+}
+.logo img {
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.inputWrap {
+  display: flex;
+  justify-content: center;
+}
+.inputWrap input {
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+.btnWrap {
+  display: flex;
+  justify-content: center;
+}
+.btnWrap button {
+  padding: 5px 10px;
+  margin: 20px 0;
+  cursor: pointer;
+}
