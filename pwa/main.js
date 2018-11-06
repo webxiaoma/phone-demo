@@ -57,8 +57,4 @@ messageBtn.onclick = function(){
 
 }
 
-// let notice = new Notification("你好",{
-//     "body": "内容主体",
-// })
-// console.log(Notification.requestPermission)
 

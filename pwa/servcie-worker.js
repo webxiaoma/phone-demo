@@ -114,7 +114,7 @@ self.addEventListener('notificationclick', event => {
         includeUncontrolled: true
     }).then(windowClients => {
         let matchingClient = null;
-    console.log(windowClients)
+        console.log(windowClients)
         // for (let i = 0, max = windowClients.length; i < max; i++) {
         //     let windowClient = windowClients[i];
         //     if (windowClient.url === urlToOpen) {
